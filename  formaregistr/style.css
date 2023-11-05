@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background-color: rgb(234, 234, 234);
+    padding: 20% 0;
+}
+form {
+    background-color:  rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    width: 33%;
+    margin: auto;
+    box-shadow: 0 0 10px 1px rgb(87, 87, 87);
+}
+.wrapper-control {
+    padding: 32px;
+
+}
+.form-descr {
+    color: rgb(132, 114, 114);
+    font-size: 14px;
+    padding: 24px 0;
+    
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+input{
+    height: 48px;
+    display: block;
+}
+img[name=registration] {
+    margin: 0 32px; 
+}
+img[name=cloce] {
+    width: 95%;
+    margin: 16px auto;    
+}
+input[name="email"], input[name="password"] {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+input[name="email"] {
+    border-color:#FFE44D;
+}
+input[name="registration"], input[name="open"] {
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 20px;
+}
+input[name="registration"] {
+    background-color: #FFE44D;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
