@@ -1,0 +1,65 @@
+
+@import './libs/normalize';
+@import './components/all';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../asset/ContryImg/Cremieux-Street.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.container {
+  display: flex;
+  justify-content: start;
+
+  .item-page{
+    width: 100%;
+    height: 100vh;
+    margin: 0vw 1vw 0vw 0vw;
+
+  }
+  element.style {
+    height: 948px;
+  }
+}
+.logo-link h1 {
+  font-size: 9.5vw;
+  color: #ffffff;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+  .content {
+    display: flex;
+    justify-content: center;
+    &__error-info {
+      margin: 100px auto;
+      width: 500px;
+      text-align: center;
+    }
+
+
+    &__items {
+      //display: grid;
+      //grid-template-columns: repeat(4, 1fr);
+      //grid-template-rows: repeat(1, 1fr);
+      //grid-column-gap: 11px;
+      //// одаптировали сетку под все виды устройств
+      //@media (max-width: 1600px) {
+      //  grid-template-columns: repeat(5, 1fr);
+      //}
+      //@media (max-width: 1200px) {
+      //  grid-template-columns: repeat(4, 1fr);
+      //}
+      //@media (max-width: 780px) {
+      //  grid-template-columns: repeat(3, 1fr);
+      //}
+      //@media (max-width: 640px) {
+      //  grid-template-columns: repeat(2, 1fr);
+      //}
+
+    }
+
+  }
