@@ -12,7 +12,7 @@ const MapModal = ({ onClose, mapData }) => {
                 const mapInstance = new window.google.maps.Map(mapContainer, {
                     center: { lat: mapData.latitude, lng: mapData.longitude },
                     zoom: 14,
-                    key:'AIzaSyDZFDJ8wgNY0S_5OXPfnHHR-cEbvmGo10Q'
+                    
                 });
 
                 const markerInstance = new window.google.maps.Marker({
